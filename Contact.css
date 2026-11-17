@@ -1,0 +1,134 @@
+body{
+    background: rgb(9, 26, 75);
+    margin: 0;
+    padding: 10px;
+}
+.verset{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.navigateur{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+.btn{
+    display: inline-block;
+    width: 100px;
+    padding: 6px 0;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    background: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn:hover{
+    background: cyan;
+    border-color: cyan;
+}
+.btn:focus-visible, a:focus-visible{
+    outline: 3px solid cyan;
+    outline-offset: 3px;
+}
+.btn-large{
+    width: min(300px, 90%);
+    padding: 10px;
+    border: 3px solid black;
+}
+p{
+    color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.marque{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+.titre{
+    text-align: center;
+}
+.intro, .blanc{
+    color: white;
+    padding: 0 20px;
+}
+.rouge{
+    color: red;
+    font-style: italic;
+}
+.hero{
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(2.2rem, 12vw, 60px);
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px cyan;
+}
+.image{
+    text-align: center;
+}
+.dada{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+.contact{
+    padding: 10px 30px;
+}
+li{
+    color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+strong{
+    color: white;
+    font-style: italic;
+}
+strong a{
+    color: white;
+    overflow-wrap: anywhere;
+}
+footer{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.imag{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+.mape{
+    display: block;
+    margin: 0 auto 30px;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    border: 3px solid rgb(252, 252, 252);
+    border-radius: 10px;
+}
+.lien{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    margin: 30px 0;
+}

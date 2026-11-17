@@ -1,0 +1,91 @@
+body{
+    background: rgb(9, 26, 75);
+    margin: 0;
+    padding: 10px;
+}
+.verset{
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.navigateur{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+.btn{
+    display: inline-block;
+    width: 100px;
+    padding: 6px 0;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    background: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn:hover{
+    background: cyan;
+    border-color: cyan;
+}
+.btn:focus-visible, a:focus-visible{
+    outline: 3px solid cyan;
+    outline-offset: 3px;
+}
+.marque{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    color: cyan;
+}
+img{
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+a{
+    color: white;
+}
+.titre{
+    text-align: center;
+}
+h1{
+    font-size: clamp(2.2rem, 12vw, 60px);
+    color: white;
+    text-shadow: 2px 2px cyan;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blanc{
+    color: white;
+}
+.responsable{
+    padding: clamp(20px, 6vw, 100px);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.responsable li{
+    margin-bottom: 12px;
+    overflow-wrap: anywhere;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
